@@ -29,13 +29,12 @@ class MyHomePage extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
-            // User Profile Header
             UserAccountsDrawerHeader(
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    Color(0xFF7B1FA2), // Purple
-                    Color(0xFF512DA8), // Deeper Purple
+                    Color(0xFF7B1FA2),
+                    Color(0xFF512DA8),
                   ],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
@@ -48,11 +47,10 @@ class MyHomePage extends StatelessWidget {
               accountEmail: const Text('cameronwilliamson@gmail.com'),
               currentAccountPicture: const CircleAvatar(
                 backgroundImage: NetworkImage(
-                    'assets/image1.jpeg'), // Placeholder image
+                    'assets/image1.jpeg'),
               ),
             ),
 
-            // Menu Items
             ListTile(
               leading: const Icon(Icons.timer, color: Colors.deepPurple),
               title: const Text('Timer'),
@@ -62,7 +60,7 @@ class MyHomePage extends StatelessWidget {
               leading: const Icon(Icons.event_available, color: Colors.deepPurple),
               title: const Text('Attendance'),
               onTap: () {
-                // Navigate to the Attendance screen
+                
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) =>
@@ -123,7 +121,6 @@ class MyHomePage extends StatelessWidget {
 
             const Divider(),
 
-            // Footer Items
             ListTile(
               leading: const Icon(Icons.help, color: Colors.grey),
               title: const Text('FAQ & Help'),
