@@ -1,10 +1,10 @@
-## VINOVE PROJECT GROUP 2
+# VINOVE PROJECT GROUP 2
 
 # WorkStatus App 
 
 ## Overview
 
-Welcome to the **WorkStatus App**! This project is designed as part of the internal project for **Vinove**. It allows users to track their work status and monitor performance metrics, all through a clean and intuitive interface. The app is built using **Flutter**, ensuring a cross-platform experience with smooth navigation and features.
+Welcome to the **WorkStatus App**! This project is designed as part of the on going campus placement of **Vinove**. It allows users to track their work status and monitor location, all through a clean and intuitive interface. The app is built using **Flutter**, ensuring a cross-platform experience with smooth navigation and features.
 
 ## Features
 
