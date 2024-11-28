@@ -14,7 +14,6 @@ class LiveLocationScreen extends StatefulWidget {
 }
 
 class _LiveLocationScreenState extends State<LiveLocationScreen> {
-  // Current location (for demonstration, using a fixed location)
   static const currentLocation = LatLng(37.3861, -122.0839);
 
   late GoogleMapController _mapController;
