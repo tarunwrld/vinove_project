@@ -1,104 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorkStatus App - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        h2 {
-            margin-top: 20px;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        pre {
-            background-color: #2d2d2d;
-            color: #f8f8f8;
-            padding: 10px;
-            border-radius: 5px;
-            font-size: 14px;
-            overflow-x: auto;
-        }
-        code {
-            background-color: #f5f5f5;
-            padding: 2px 6px;
-            border-radius: 4px;
-        }
-        .container {
-            background-color: white;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
-<body>
+# WorkStatus App
 
-    <div class="container">
-        <h1>WorkStatus App</h1>
-        
-        <h2>Overview</h2>
-        <p>The <strong>WorkStatus App</strong> is a mobile application developed for the <strong>Vinove</strong> company, designed to help employees track and manage their work statuses efficiently. The app allows users to log in, update their work status, and view the status of their colleagues. It aims to streamline communication within the company and keep everyone informed about the team's current tasks and availability.</p>
-        
-        <h2>Features</h2>
-        <ul>
-            <li><strong>User Authentication</strong>: Sign in to the app using your credentials.</li>
-            <li><strong>Work Status Updates</strong>: Easily update your current work status (e.g., available, in a meeting, on break, etc.).</li>
-            <li><strong>Team Overview</strong>: View the work statuses of other team members in real-time.</li>
-            <li><strong>Profile Management</strong>: Edit and update your profile information, including the display picture and work status.</li>
-        </ul>
-        
-        <h2>Tech Stack</h2>
-        <ul>
-            <li><strong>Framework</strong>: Flutter</li>
-            <li><strong>Programming Language</strong>: Dart</li>
-            <li><strong>Backend</strong>: (Optional - Specify your backend service here, if applicable)</li>
-            <li><strong>Database</strong>: (Optional - Specify your database, if applicable)</li>
-            <li><strong>State Management</strong>: Provider (or any other state management solution used)</li>
-        </ul>
+## Overview
 
-        <h2>Known Issues</h2>
-        <p>While the WorkStatus app provides useful functionality, there are some known issues that may affect the user experience:</p>
-        <ul>
-            <li><strong>Profile Image Not Loading</strong>: The profile photo feature may sometimes fail to load images. This issue can be observed particularly when uploading or displaying the user’s profile picture.</li>
-            <li><strong>App Slowdowns</strong>: The app may experience some slowdowns or lag, especially during certain transitions or when the app is heavily loaded with data.</li>
-            <li><strong>Screen Pixel Glitch (Device Specific)</strong>: There is a screen pixel glitch observed on specific devices. This issue is related to the rendering on certain screens and might cause minor visual inconsistencies.</li>
-        </ul>
+Welcome to the **WorkStatus App**! This project is designed as part of the internal project for **Vinove**. It allows users to track their work status and monitor performance metrics, all through a clean and intuitive interface. The app is built using **Flutter**, ensuring a cross-platform experience with smooth navigation and features.
 
-        <h2>Installation</h2>
-        <p>To run the app locally:</p>
-        <ol>
-            <li>Ensure you have <strong>Flutter</strong> and <strong>Dart</strong> installed on your system. If not, follow the <a href="https://flutter.dev/docs/get-started/install" target="_blank">Flutter installation guide</a> to set up your development environment.</li>
-            <li>Clone the repository to your local machine:</li>
-            <pre><code>git clone https://github.com/your-repository-link.git</code></pre>
-            <li>Navigate to the project folder:</li>
-            <pre><code>cd workstatus-app</code></pre>
-            <li>Install the dependencies:</li>
-            <pre><code>flutter pub get</code></pre>
-            <li>Run the app:</li>
-            <pre><code>flutter run</code></pre>
-        </ol>
+## Features
 
-        <h2>Contribution</h2>
-        <p>If you'd like to contribute to the development of the WorkStatus app, feel free to fork the repository, create a branch for your changes, and submit a pull request with your improvements or bug fixes.</p>
+- User profile management.
+- Status tracking.
+- Easy-to-navigate dashboard.
+- Notifications for work status updates.
+- Simple, modern UI designed for productivity.
 
-        <h2>License</h2>
-        <p>This project is licensed under the MIT License - see the <a href="LICENSE" target="_blank">LICENSE</a> file for details.</p>
-    </div>
+## Tech Stack
 
-</body>
-</html>
+- **Flutter** – for building the app's interface and business logic.
+- **Dart** – the programming language used in Flutter.
+- **Firebase** – used for authentication and real-time data storage.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/workstatus-app.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd workstatus-app
+Install the dependencies:
+
+bash
+Copy code
+flutter pub get
+Run the app:
+
+bash
+Copy code
+flutter run
+Known Bugs
+While the app is fully functional for most use cases, there are a few known issues that are still being worked on:
+
+Profile Image Not Loading: In some cases, the profile photo fails to load properly. This is a known issue related to image caching, and a fix is in progress.
+
+Performance Slowdowns: Occasionally, the app experiences slowdowns, especially when navigating through certain sections. This might be due to the complexity of some screens or background processes.
+
+Screen Pixel Glitch: A pixel glitch appears intermittently on some devices when transitioning between screens. This issue is device-specific and only occurs on certain screen resolutions.
+
+Future Improvements
+Fixing the profile image loading issue.
+Optimizing app performance to reduce slowdowns.
+Resolving the screen pixel glitch on affected devices.
+Adding more features like team collaboration, advanced reporting, and more customization options.
+Contributing
+Feel free to fork the repository and submit pull requests for any improvements or bug fixes. Please follow the standard GitHub workflows (fork, clone, branch, pull request) for contributing to this project.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Thank you for checking out the WorkStatus App! If you have any questions, feel free to open an issue or reach out to us directly.
+
+markdown
+Copy code
+
+### Explanation:
+
+- **Overview**: Provides a high-level summary of the project and its purpose.
+- **Tech Stack**: Lists the technologies used, specifically highlighting Flutter and Firebase.
+- **Installation**: Includes step-by-step instructions for cloning and setting up the project.
+- **Known Bugs**: Mentions issues like profile photo loading, performance slowdowns, and screen pixel glitches.
+- **Future Improvements**: Briefly outlines plans to fix these bugs and enhance the app.
+- **Contributing**: Provides guidelines for others who wish to contribute to the project.
+- **License**: Mentions the project's open-source license (you can replace this with the actual license you choose).
+
+You can customize this template to include any additional details about the project or requirements specific to your repository!
+
+
+
+
