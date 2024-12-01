@@ -8,9 +8,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Workstatus',
-      home: const MyHomePage(),
+      home: MyHomePage(),
     );
   }
 }
@@ -29,28 +29,30 @@ class MyHomePage extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
-            UserAccountsDrawerHeader(
-              decoration: const BoxDecoration(
+            // User Profile Header
+            const UserAccountsDrawerHeader(
+              decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    Color(0xFF7B1FA2),
-                    Color(0xFF512DA8),
+                    Color(0xFF7B1FA2), // Purple
+                    Color(0xFF512DA8), // Deeper Purple
                   ],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
               ),
-              accountName: const Text(
+              accountName: Text(
                 'Cameron Williamson',
                 style: TextStyle(fontSize: 18),
               ),
-              accountEmail: const Text('cameronwilliamson@gmail.com'),
-              currentAccountPicture: const CircleAvatar(
-                backgroundImage: NetworkImage(
+              accountEmail: Text('cameronwilliamson@gmail.com'),
+              currentAccountPicture: CircleAvatar(
+                backgroundImage: AssetImage(
                     'assets/image1.jpeg'),
               ),
             ),
 
+            // Menu Items
             ListTile(
               leading: const Icon(Icons.timer, color: Colors.deepPurple),
               title: const Text('Timer'),
@@ -60,7 +62,6 @@ class MyHomePage extends StatelessWidget {
               leading: const Icon(Icons.event_available, color: Colors.deepPurple),
               title: const Text('Attendance'),
               onTap: () {
-                
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) =>
@@ -121,6 +122,7 @@ class MyHomePage extends StatelessWidget {
 
             const Divider(),
 
+            // Footer Items
             ListTile(
               leading: const Icon(Icons.help, color: Colors.grey),
               title: const Text('FAQ & Help'),
