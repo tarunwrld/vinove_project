@@ -10,7 +10,7 @@
 Welcome to the **WorkStatus App**! This project is designed as part of the on going campus placement of **Vinove**. It allows users to track their work status and monitor location, all through a clean and intuitive interface. The app is built using **Flutter**, ensuring a cross-platform experience with smooth navigation and features.
 
 ## Demo
-https://github.com/user-attachments/assets/40a7b523-ba07-4377-ae18-f86248a6bca3
+https://github.com/user-attachments/assets/5dbc1b11-459b-414b-af0f-9bd94c358224
 
 ## Features
 
