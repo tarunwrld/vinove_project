@@ -14,27 +14,27 @@ class AttendanceScreen extends StatelessWidget {
     return Scaffold(
 
       appBar: AppBar(
-        title: Text('ATTENDANCE'),
+        title: const Text('ATTENDANCE'),
         backgroundColor: Colors.purple,
         actions: [
           TextButton.icon(
             onPressed: () {},
-            icon: Icon(Icons.people, color: Colors.white),
-            label: Text('All Members', style: TextStyle(color: Colors.white)),
+            icon: const Icon(Icons.people, color: Colors.white),
+            label: const Text('All Members', style: TextStyle(color: Colors.white)),
           ),
         ],
       ),
       body: ListView(
-        padding: EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(16.0),
         children: [
           Card(
-            margin: EdgeInsets.symmetric(vertical: 8.0),
+            margin: const EdgeInsets.symmetric(vertical: 8.0),
             child: ListTile(
-              leading: CircleAvatar(
-                backgroundImage: AssetImage('image1.jpeg'),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/image1.jpeg'),
               ),
-              title: Text('Wade Warren (WSL0003)'),
-              subtitle: Column(
+              title: const Text('Wade Warren (WSL0003)'),
+              subtitle: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
@@ -58,7 +58,7 @@ class AttendanceScreen extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   IconButton(
-                    icon: Icon(Icons.calendar_today, color: Colors.purple),
+                    icon: const Icon(Icons.calendar_today, color: Colors.purple),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -68,7 +68,7 @@ class AttendanceScreen extends StatelessWidget {
                     },
                   ),
                   IconButton(
-                    icon: Icon(Icons.location_on, color: Colors.purple),
+                    icon: const Icon(Icons.location_on, color: Colors.purple),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -81,13 +81,13 @@ class AttendanceScreen extends StatelessWidget {
             ),
           ),
           Card(
-            margin: EdgeInsets.symmetric(vertical: 8.0),
+            margin: const EdgeInsets.symmetric(vertical: 8.0),
             child: ListTile(
-              leading: CircleAvatar(
-                backgroundImage: AssetImage('image2.png'),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/image2.png'),
               ),
-              title: Text('Esther Howard (WSL0034)'),
-              subtitle: Column(
+              title: const Text('Esther Howard (WSL0034)'),
+              subtitle: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
@@ -107,7 +107,7 @@ class AttendanceScreen extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   IconButton(
-                    icon: Icon(Icons.calendar_today, color: Colors.purple),
+                    icon: const Icon(Icons.calendar_today, color: Colors.purple),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -117,7 +117,7 @@ class AttendanceScreen extends StatelessWidget {
                     },
                   ),
                   IconButton(
-                    icon: Icon(Icons.location_on, color: Colors.purple),
+                    icon: const Icon(Icons.location_on, color: Colors.purple),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -131,13 +131,13 @@ class AttendanceScreen extends StatelessWidget {
           ),
           //new
           Card(
-            margin: EdgeInsets.symmetric(vertical: 8.0),
+            margin: const EdgeInsets.symmetric(vertical: 8.0),
             child: ListTile(
-              leading: CircleAvatar(
-                backgroundImage: AssetImage('image1.jpeg'),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/image1.jpeg'),
               ),
-              title: Text('Cameron WilliamSon'),
-              subtitle: Column(
+              title: const Text('Cameron WilliamSon'),
+              subtitle: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
@@ -161,7 +161,7 @@ class AttendanceScreen extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   IconButton(
-                    icon: Icon(Icons.calendar_today, color: Colors.purple),
+                    icon: const Icon(Icons.calendar_today, color: Colors.purple),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -171,7 +171,7 @@ class AttendanceScreen extends StatelessWidget {
                     },
                   ),
                   IconButton(
-                    icon: Icon(Icons.location_on, color: Colors.purple),
+                    icon: const Icon(Icons.location_on, color: Colors.purple),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -184,13 +184,13 @@ class AttendanceScreen extends StatelessWidget {
             ),
           ),
           Card(
-            margin: EdgeInsets.symmetric(vertical: 8.0),
+            margin: const EdgeInsets.symmetric(vertical: 8.0),
             child: ListTile(
-              leading: CircleAvatar(
-                backgroundImage: AssetImage('image1.jpeg'),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/image2.png'),
               ),
-              title: Text('Brooklyn Simson'),
-              subtitle: Column(
+              title: const Text('Brooklyn Simson'),
+              subtitle: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
@@ -214,7 +214,7 @@ class AttendanceScreen extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   IconButton(
-                    icon: Icon(Icons.calendar_today, color: Colors.purple),
+                    icon: const Icon(Icons.calendar_today, color: Colors.purple),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -224,7 +224,7 @@ class AttendanceScreen extends StatelessWidget {
                     },
                   ),
                   IconButton(
-                    icon: Icon(Icons.location_on, color: Colors.purple),
+                    icon: const Icon(Icons.location_on, color: Colors.purple),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -237,13 +237,13 @@ class AttendanceScreen extends StatelessWidget {
             ),
           ),
           Card(
-            margin: EdgeInsets.symmetric(vertical: 8.0),
+            margin: const EdgeInsets.symmetric(vertical: 8.0),
             child: ListTile(
-              leading: CircleAvatar(
-                backgroundImage: AssetImage('image1.jpeg'),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/image1.jpeg'),
               ),
-              title: Text('Cristiano Jr.'),
-              subtitle: Column(
+              title: const Text('Cristiano Jr.'),
+              subtitle: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
@@ -267,7 +267,7 @@ class AttendanceScreen extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   IconButton(
-                    icon: Icon(Icons.calendar_today, color: Colors.purple),
+                    icon: const Icon(Icons.calendar_today, color: Colors.purple),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -277,7 +277,7 @@ class AttendanceScreen extends StatelessWidget {
                     },
                   ),
                   IconButton(
-                    icon: Icon(Icons.location_on, color: Colors.purple),
+                    icon: const Icon(Icons.location_on, color: Colors.purple),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -291,7 +291,7 @@ class AttendanceScreen extends StatelessWidget {
           ),
           TextButton(
             onPressed: () {},
-            child: Text('Show Map view', style: TextStyle(color: Colors.blue)),
+            child: const Text('Show Map view', style: TextStyle(color: Colors.blue)),
           ),
         ],
       ),
