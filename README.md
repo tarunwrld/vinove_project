@@ -29,11 +29,9 @@ https://github.com/user-attachments/assets/5dbc1b11-459b-414b-af0f-9bd94c358224
 
 1- While the app is fully functional for most use cases, there are a few known issues that are still being worked on:
 
-2- Profile Image Not Loading: In some cases, the profile photo fails to load properly. This is a known issue related to image caching, and a fix is in progress.
+2- Performance Slowdowns: Occasionally, the app experiences slowdowns, especially when navigating through certain sections. This might be due to the complexity of some screens or background processes.
 
-3- Performance Slowdowns: Occasionally, the app experiences slowdowns, especially when navigating through certain sections. This might be due to the complexity of some screens or background processes.
-
-4- Screen Pixel Glitch: A pixel glitch appears intermittently on some devices when transitioning between screens. This issue is device-specific and only occurs on certain screen resolutions.
+3- Screen Pixel Glitch: A pixel glitch appears intermittently on some devices when transitioning between screens. This issue is device-specific and only occurs on certain screen resolutions.
 
 
 ## Installation
