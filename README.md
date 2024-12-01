@@ -39,12 +39,12 @@ https://github.com/user-attachments/assets/5dbc1b11-459b-414b-af0f-9bd94c358224
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/tarunwrld/workstatus-app.git
+   https://github.com/tarunwrld/vinove_project.git
    
 2. Navigate to the project directory:
 
    ```bash
-   cd workstatus-app
+   cd vinove_project
 
 3. Install the dependencies:
 
