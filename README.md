@@ -2,7 +2,7 @@
 
 # WorkStatus App 
 
-## Note: Among all task one task given is to show route between source and destination we have written the code but google map api asking for credit card for verification which we dont have. So that feature is not implemented although code is written.
+## Note: Among all task one task given is to show route between source and destination I have written the code but google map api asking for credit card for verification which I dont have. So that feature is not implemented although code is written.
 
 
 ## Overview
